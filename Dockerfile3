@@ -1,0 +1,6 @@
+from mysql:5.7
+label maintainer db@devops.com
+env MYSQL_ROOT_PASSWORD admin
+env MYSQL_DATABASE company
+copy createdb.sql /docker-entrypoint-initdb.d/createdb.sql
+

@@ -1,0 +1,4 @@
+from ubuntu
+ENV ORA_PORT 1521
+cmd env
+

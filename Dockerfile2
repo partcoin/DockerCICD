@@ -1,0 +1,7 @@
+from ubuntu
+label maintainer parthasarathy.jagannathan@oracle.com
+#copy boot.sh /code/boot.sh
+run apt-get -y update && apt-get -y install curl apache2 
+#run chmod +x /code/boot.sh
+cmd apachectl -D FOREGROUND
+ 
