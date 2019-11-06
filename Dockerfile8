@@ -1,0 +1,7 @@
+from node
+label maintainer partha@devops.com
+run npm install -g @oracle/ojet-cli
+run ojet create project --template=navbar
+expose 8000
+workdir /project
+cmd ojet serve

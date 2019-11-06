@@ -1,0 +1,8 @@
+ARG version="18.04"
+FROM ubuntu:$version
+ARG version
+RUN echo "Version of ubuntu is " $version
+ARG LICENSE_KEY="134-40-100"
+RUN echo "LIC KEY EXHAUSTED" $LICENSE_KEY
+ENV SERVICE_VERSION="1.0"
+CMD ENV
